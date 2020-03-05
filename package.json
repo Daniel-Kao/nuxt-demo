@@ -1,0 +1,23 @@
+{
+  "name": "123",
+  "version": "1.0.0",
+  "description": "My remarkable Nuxt.js project",
+  "author": "Daniel-Kao",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "json-server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.5.0",
+    "axios": "^0.19.2",
+    "nuxt": "^2.0.0",
+    "velocity-animate": "^1.5.2"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}
